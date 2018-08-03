@@ -312,7 +312,7 @@ function drawNinepatchLines(w, h, paddingValues) {
     //Draw left
     s = h / 2;
     ctx.moveTo(0, Math.round(offsetY + s - NINEPATCH_SIZING_WIDTH / 2));
-    ctx.lineTo(0, Math.round(offsetY + s + NINEPATCH_SIZING_WIDTH));
+    ctx.lineTo(0, Math.round(offsetY + s - NINEPATCH_SIZING_WIDTH / 2 + 1);
 
     //Draw top
     s = w / 2;
